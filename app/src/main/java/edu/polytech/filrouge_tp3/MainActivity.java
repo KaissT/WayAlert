@@ -25,10 +25,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ImageView image = findViewById(R.id.imageView);
-        image.setBackgroundResource(R.drawable.rotation_animation);
-        AnimationDrawable animation = (AnimationDrawable)image.getBackground();
-        animation.start();
+//        ImageView image = findViewById(R.id.imageView);
+//        image.setBackgroundResource(R.drawable.rotation_animation);
+//        AnimationDrawable animation = (AnimationDrawable)image.getBackground();
+//        animation.start();
 
         //default button
         findViewById(R.id.goDefault).setOnClickListener(clic -> {

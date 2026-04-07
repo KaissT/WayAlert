@@ -89,7 +89,7 @@ public class MenuFragment extends Fragment{
                 View child = viewGroup.getChildAt(i);
                 if (child instanceof ImageView) {
                     String idString = getResources().getResourceEntryName(child.getId());
-                    if (idString.matches("menu[1-9]?")) {
+                    if (idString.matches("menu[1-3]?")) {
                         pictures.add((ImageView) child);
                     }
                 }

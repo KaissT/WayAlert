@@ -22,49 +22,37 @@
 
 
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_height="280dp"
-        android:layout_width="400dp"
-        android:layout_marginTop="72dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
-
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Polytech app"
-        android:textSize="40sp"
+        android:text="WatAlert"
+        android:textSize="50sp"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/goDefault"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
     <Button
         android:id="@+id/goDefault"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="defaut"
-        android:layout_marginBottom="50dp"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:textSize="30sp"
+        android:text="Signaler"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/option" />
+        app:layout_constraintTop_toTopOf="@+id/backgroundImage" />
 
     <Button
         android:id="@+id/option"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="option1"
-        app:layout_constraintBottom_toBottomOf="@id/goDefault"
-        app:layout_constraintStart_toEndOf="@id/goDefault"
-        app:layout_constraintEnd_toEndOf="parent" />
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:textSize="30sp"
+        android:text="Voir accidents"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/goDefault" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

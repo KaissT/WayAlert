@@ -82,60 +82,6 @@
                 android:src="@mipmap/menu2"
                 app:shapeAppearanceOverlay="@style/MenuImage" />
 
-            <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/menu4"
-                android:tag="3"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:paddingTop="30dp"
-                android:layout_margin="5dp"
-                android:layout_weight="1"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"
-                android:src="@mipmap/menu3"
-                app:shapeAppearanceOverlay="@style/MenuImage" />
-
-
-            <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/menu5"
-                android:tag="4"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:paddingTop="30dp"
-                android:layout_margin="5dp"
-                android:layout_weight="1"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"
-                android:src="@mipmap/menu4"
-                app:shapeAppearanceOverlay="@style/MenuImage" />
-
-
-            <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/menu6"
-                android:tag="5"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:paddingTop="30dp"
-                android:layout_margin="5dp"
-                android:layout_weight="1"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"
-                android:src="@mipmap/menu5"
-                app:shapeAppearanceOverlay="@style/MenuImage" />
-
-            <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/menu7"
-                android:tag="6"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:paddingTop="30dp"
-                android:layout_margin="5dp"
-                android:layout_weight="1"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"
-                android:src="@mipmap/menu6"
-                app:shapeAppearanceOverlay="@style/MenuImage" />
-
 
         </LinearLayout>
 
