@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "edu.polytech.filrouge_tp3.app-mergeDebugResources-31:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\wasse\\.gradle\\caches\\9.3.1\\transforms\\9d78bccceb2d4071d38cc49a06a667f8\\workspace\\transformed\\material-1.11.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "63",
+                        "endOffsets": "114"
+                    }
+                }
+            ]
+        }
+    ]
+}

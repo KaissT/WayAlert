@@ -13,4 +13,23 @@
     <string name="characterlist">characterList</string>
     <string name="data">data</string>
     <string name="filtervalue">filterValue</string>
+
+
+        <string name="type_acc">ListVie</string>
+        <string-array name="type">
+            <item>Collision moto-moto</item>
+            <item>Collision voiture-piéton</item>
+            <item>Collision moto-piéton</item>
+            <item>Collision voiture-vélo</item>
+            <item>Collision multiple</item>
+            <item>Sortie de route</item>
+            <item>Renversement de véhicule</item>
+            <item>Choc contre obstacle fixe</item>
+            <item>Incendie de véhicule</item>
+        </string-array>
+
+
 </resources>
+
+
+
