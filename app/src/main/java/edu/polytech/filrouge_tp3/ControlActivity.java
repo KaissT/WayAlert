@@ -41,7 +41,7 @@ public class ControlActivity extends AppCompatActivity implements Menuable, Noti
     private MenuFragment menu;
     private boolean isStarting = true;
     private Fragment[] tabFragments = { new Screen1Fragment(), new Screen2Fragment(),
-                                        new Screen3Fragment(), new Screen4Fragment(),
+                                        new InformationsFragment(), new Screen4Fragment(),
                                         new Screen5Fragment(), new Screen6Fragment(),
                                         new Screen7Fragment() };
     private int menuNumber;

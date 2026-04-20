@@ -3232,6 +3232,7 @@ id bubble_subdescription
 id bubble_title
 id button
 id buttonPanel
+id buttonValider
 id cache_measures
 id callMeasure
 id cancel_action
@@ -3368,6 +3369,7 @@ id item_touch_helper_previous_elevation
 id itemsMenu
 id jumpToEnd
 id jumpToStart
+id labelGravite
 id labelScreen1Fragment
 id labelScreen2Fragment
 id labelScreen3Fragment
@@ -3509,6 +3511,10 @@ id pressed
 id progress_circular
 id progress_horizontal
 id radio
+id radioFaible
+id radioGrave
+id radioGroupGravite
+id radioMoyenne
 id ratio
 id rectangles
 id report_drawn
@@ -3559,6 +3565,7 @@ id snapMargins
 id south
 id spacer
 id special_effects_controller_view_tag
+id spinnerTypeAccident
 id spline
 id split_action_bar
 id spread
@@ -3616,6 +3623,7 @@ id textinput_suffix_text
 id time
 id title
 id titleDividerNoCustom
+id titleInformations
 id title_template
 id toggle
 id top
@@ -3787,6 +3795,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_informations
 layout fragment_menu
 layout fragment_screen1
 layout fragment_screen2

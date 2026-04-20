@@ -1,8 +1,8 @@
-#Mon Apr 20 17:13:31 CEST 2026
-base.0=C\:\\Users\\wasse\\prj\\WayAlert\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\wasse\\prj\\WayAlert\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\wasse\\prj\\WayAlert\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
-base.3=C\:\\Users\\wasse\\prj\\WayAlert\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+#Mon Apr 20 21:47:42 CEST 2026
+base.0=C\:\\Users\\nidha\\AndroidStudioProjects\\WayAlert\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\nidha\\AndroidStudioProjects\\WayAlert\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\nidha\\AndroidStudioProjects\\WayAlert\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
+base.3=C\:\\Users\\nidha\\AndroidStudioProjects\\WayAlert\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=9/classes.dex
