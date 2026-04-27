@@ -96,7 +96,7 @@
             android:layout_marginHorizontal="30dp"
             android:text="Description :"
             android:textSize="25sp"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="20dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
 
@@ -109,7 +109,7 @@
             android:gravity="top|start"
             android:hint="Saisir une description de l'incident..."
             android:inputType="textMultiLine"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView5" />
@@ -147,7 +147,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
-                android:layout_marginBottom="16dp"
+                android:layout_marginBottom="0dp"
                 android:text="Peu de dégâts matériels/humains"
                 android:textColor="#666666" />
 
@@ -163,7 +163,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
-                android:layout_marginBottom="16dp"
                 android:text="Dégâts matériels, risques humains"
                 android:textColor="#666666" />
 
@@ -183,6 +182,16 @@
                 android:textColor="#666666" />
 
         </RadioGroup>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:text="Valider"
+            android:layout_marginTop="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup2" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

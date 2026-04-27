@@ -51,10 +51,7 @@ public class MenuFragment extends Fragment{
 
         //notify activity the menu is selected
         menuable.onMenuChange(currentActivatedIndex);
-
-        TextView text = layout.findViewById(R.id.txtFragmentMenu);
-        text.setText("Menu");
-       // menuable.onMenuChange(currentActivatedIndex);
+        // menuable.onMenuChange(currentActivatedIndex);
 
 
         for(ImageView imageView : imageViews) {
