@@ -3306,7 +3306,6 @@ id easeInOut
 id easeOut
 id east
 id edge
-id editTitre
 id edit_query
 id elastic
 id embed
@@ -3371,7 +3370,6 @@ id jumpToEnd
 id jumpToStart
 id labelGravite
 id labelScreen1Fragment
-id labelScreen2Fragment
 id labelScreen3Fragment
 id labelScreen4Fragment
 id labelScreen5Fragment
@@ -3609,7 +3607,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textType
 id textView
 id text_input_end_icon
 id text_input_error_icon

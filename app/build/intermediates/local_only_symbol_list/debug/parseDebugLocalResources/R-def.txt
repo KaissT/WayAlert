@@ -36,14 +36,12 @@ drawable sanse_face
 id backgroundImage
 id button
 id buttonValider
-id editTitre
 id fragment_main
 id fragment_menu
 id goDefault
 id itemsMenu
 id labelGravite
 id labelScreen1Fragment
-id labelScreen2Fragment
 id labelScreen3Fragment
 id labelScreen4Fragment
 id labelScreen5Fragment
@@ -61,7 +59,6 @@ id radioGrave
 id radioGroupGravite
 id radioMoyenne
 id spinnerTypeAccident
-id textType
 id textView
 id titleInformations
 id topic
