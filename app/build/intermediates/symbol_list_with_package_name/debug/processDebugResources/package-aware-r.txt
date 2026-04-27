@@ -3014,6 +3014,7 @@ drawable earth7
 drawable earth8
 drawable earth9
 drawable fond
+drawable fond_champ_texte
 drawable fondmenu
 drawable ic_arrow_back_black_24
 drawable ic_clear_black_24
@@ -3232,6 +3233,7 @@ id bubble_subdescription
 id bubble_title
 id button
 id buttonPanel
+id buttonValider
 id cache_measures
 id callMeasure
 id cancel_action
@@ -3305,6 +3307,7 @@ id easeInOut
 id easeOut
 id east
 id edge
+id editDescription
 id editTitre
 id edit_query
 id elastic
@@ -3368,8 +3371,8 @@ id item_touch_helper_previous_elevation
 id itemsMenu
 id jumpToEnd
 id jumpToStart
+id labelGravite
 id labelScreen1Fragment
-id labelScreen2Fragment
 id labelScreen3Fragment
 id labelScreen4Fragment
 id labelScreen5Fragment
@@ -3508,7 +3511,16 @@ id postLayout
 id pressed
 id progress_circular
 id progress_horizontal
+id r1
+id r2
+id r3
 id radio
+id radioFaible
+id radioGrave
+id radioGroup
+id radioGroup2
+id radioGroupGravite
+id radioMoyenne
 id ratio
 id rectangles
 id report_drawn
@@ -3559,6 +3571,7 @@ id snapMargins
 id south
 id spacer
 id special_effects_controller_view_tag
+id spinnerTypeAccident
 id spline
 id split_action_bar
 id spread
@@ -3581,6 +3594,7 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
+id switch1
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -3597,6 +3611,9 @@ id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
 id text
 id text2
+id textDescription
+id textDescription2
+id textDescription3
 id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
@@ -3604,6 +3621,10 @@ id textStart
 id textTop
 id textType
 id textView
+id textView2
+id textView3
+id textView4
+id textView5
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3616,6 +3637,7 @@ id textinput_suffix_text
 id time
 id title
 id titleDividerNoCustom
+id titleInformations
 id title_template
 id toggle
 id top
@@ -3787,6 +3809,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_informations
 layout fragment_menu
 layout fragment_screen1
 layout fragment_screen2
