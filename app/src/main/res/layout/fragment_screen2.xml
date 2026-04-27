@@ -100,19 +100,30 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
 
-        <EditText
-            android:id="@+id/editDescription"
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tileDescription"
             android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5"
+            app:endIconMode="custom"
+            app:endIconDrawable="@android:drawable/ic_btn_speak_now">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editDescription"
+            android:layout_width="match_parent"
             android:layout_height="120dp"
-            android:layout_marginHorizontal="30dp"
             android:background="@drawable/fond_champ_texte"
             android:gravity="top|start"
             android:hint="Saisir une description de l'incident..."
-            android:inputType="textMultiLine"
-            android:layout_marginTop="20dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+            android:inputType="textMultiLine" />
+        </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
             android:id="@+id/textView4"
@@ -123,7 +134,7 @@
             android:text="Gravité Globale :"
             android:textSize="25sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editDescription" />
+            app:layout_constraintTop_toBottomOf="@+id/tileDescription" />
 
         <RadioGroup
             android:id="@+id/radioGroup2"
