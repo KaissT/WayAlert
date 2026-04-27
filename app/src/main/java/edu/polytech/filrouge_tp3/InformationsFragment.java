@@ -69,9 +69,9 @@ public class InformationsFragment extends Fragment {
         List<String> types = new ArrayList<>();
         types.add("Collision voiture - moto");
         types.add("Collision voiture - voiture");
-        types.add("Renversement véhicule lourd");
+      //  types.add("Renversement véhicule lourd");
         types.add("Collision avec obstacle");
-        types.add("Sortie de route");
+      //  types.add("Sortie de route");
 
         ArrayAdapter<String> adapter = new ArrayAdapter<>(requireContext(), android.R.layout.simple_spinner_item, types);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);

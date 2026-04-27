@@ -57,8 +57,6 @@ public class MenuFragment extends Fragment{
             imageViews.get(currentActivatedIndex).setImageResource(  layout.getResources().getIdentifier("menu"+(currentActivatedIndex)+"_s", "mipmap", layout.getContext().getPackageName()) );
         }
 
-        TextView text = layout.findViewById(R.id.txtFragmentMenu);
-        text.setText("Menu");
 
         for(ImageView imageView : imageViews) {
             imageView.setOnClickListener( menu -> {

@@ -15,13 +15,15 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
+import java.util.Date;
+
 
 public class Screen2Fragment extends Fragment {
     public final static int FRAGMENT_ID = 1;
     private final String TAG = "frallo " + getClass().getSimpleName();
     private Notifiable notifiable;
 
-    private EditText editDescription, editDate;
+    private EditText editDescription;
     private RadioGroup radioGravite;
     private RadioGroup radioBlessure;
     private LinearLayout layoutBlessure;
@@ -48,8 +50,7 @@ public class Screen2Fragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_screen2, container, false);
 
         editDescription = view.findViewById(R.id.editDescription);
-        editDate        = view.findViewById(R.id.editDate);
-        radioGravite    = view.findViewById(R.id.radioGravite);
+        radioGravite    = view.findViewById(R.id.radioGroup);
         checkHumain     = view.findViewById(R.id.checkHumain);
         layoutBlessure  = view.findViewById(R.id.layoutBlessure);
         radioBlessure   = view.findViewById(R.id.radioBlessure);
@@ -72,10 +73,12 @@ public class Screen2Fragment extends Fragment {
 
     private void creerAccidentViaFactory() {
         try {
+            // Utilisation de AccidentFactory (nom corrigé si nécessaire)
             Accident accident = AccidentFactoryDetailMode.build(AccidentFactoryDetailMode.VOITURE);
 
             accident.setDescription(editDescription.getText().toString());
-            accident.setDate(editDate.getText().toString());
+            // On a éliminé le champ date, on peut mettre la date actuelle par défaut
+            accident.setDate(new Date().toString());
             accident.setHumain(checkHumain.isChecked());
 
             if (checkHumain.isChecked()) {

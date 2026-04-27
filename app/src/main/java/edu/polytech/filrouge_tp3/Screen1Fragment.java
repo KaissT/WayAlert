@@ -47,8 +47,7 @@ public class Screen1Fragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_screen1, container, false);
         TextView text = view.findViewById(R.id.labelScreen1Fragment);
         text.setText(getActivity().getResources().getString(R.string.Screen1Fragment_label)+"");
-        view.findViewById(R.id.button).setOnClickListener(clic -> {
-            notifiable.onClick(FRAGMENT_ID);
+        view.findViewById(R.id.button).setOnClickListener(clic -> {notifiable.onClick(3);
         });
         return view;
     }

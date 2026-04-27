@@ -1,7 +1,0 @@
-.DS_Store
-gradle/
-settings.gradle
-local.properties
-.idea/
-.gradle/
-gradle*

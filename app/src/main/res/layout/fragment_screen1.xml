@@ -50,7 +50,7 @@
             android:id="@+id/topic"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="@string/MainFragment_content"
+            android:text="Appuyer sur le Bouton pour acceder à la liste des accidents"
             android:textColor="@color/white"
             android:textSize="18sp"
             android:layout_margin="5dp"
