@@ -9,165 +9,165 @@
 9        android:targetSdkVersion="34" />
 10
 11    <supports-screens
-11-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\nidha\.gradle\caches\9.3.1\transforms\72a74ede46112820bdd592f9df8f1c35\workspace\transformed\osmdroid-android-6.0.2\AndroidManifest.xml:11:5-14:40
+11-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\kaist\.gradle\caches\9.3.1\transforms\72a74ede46112820bdd592f9df8f1c35\workspace\transformed\osmdroid-android-6.0.2\AndroidManifest.xml:11:5-14:40
 12        android:anyDensity="true"
-12-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\nidha\.gradle\caches\9.3.1\transforms\72a74ede46112820bdd592f9df8f1c35\workspace\transformed\osmdroid-android-6.0.2\AndroidManifest.xml:12:9-34
+12-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\kaist\.gradle\caches\9.3.1\transforms\72a74ede46112820bdd592f9df8f1c35\workspace\transformed\osmdroid-android-6.0.2\AndroidManifest.xml:12:9-34
 13        android:largeScreens="true"
-13-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\nidha\.gradle\caches\9.3.1\transforms\72a74ede46112820bdd592f9df8f1c35\workspace\transformed\osmdroid-android-6.0.2\AndroidManifest.xml:13:9-36
+13-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\kaist\.gradle\caches\9.3.1\transforms\72a74ede46112820bdd592f9df8f1c35\workspace\transformed\osmdroid-android-6.0.2\AndroidManifest.xml:13:9-36
 14        android:normalScreens="true" />
-14-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\nidha\.gradle\caches\9.3.1\transforms\72a74ede46112820bdd592f9df8f1c35\workspace\transformed\osmdroid-android-6.0.2\AndroidManifest.xml:14:9-37
+14-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\kaist\.gradle\caches\9.3.1\transforms\72a74ede46112820bdd592f9df8f1c35\workspace\transformed\osmdroid-android-6.0.2\AndroidManifest.xml:14:9-37
 15
 16    <uses-feature
-16-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\nidha\.gradle\caches\9.3.1\transforms\72a74ede46112820bdd592f9df8f1c35\workspace\transformed\osmdroid-android-6.0.2\AndroidManifest.xml:16:5-18:36
+16-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\kaist\.gradle\caches\9.3.1\transforms\72a74ede46112820bdd592f9df8f1c35\workspace\transformed\osmdroid-android-6.0.2\AndroidManifest.xml:16:5-18:36
 17        android:name="android.hardware.location.network"
-17-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\nidha\.gradle\caches\9.3.1\transforms\72a74ede46112820bdd592f9df8f1c35\workspace\transformed\osmdroid-android-6.0.2\AndroidManifest.xml:17:9-57
+17-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\kaist\.gradle\caches\9.3.1\transforms\72a74ede46112820bdd592f9df8f1c35\workspace\transformed\osmdroid-android-6.0.2\AndroidManifest.xml:17:9-57
 18        android:required="false" />
-18-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\nidha\.gradle\caches\9.3.1\transforms\72a74ede46112820bdd592f9df8f1c35\workspace\transformed\osmdroid-android-6.0.2\AndroidManifest.xml:18:9-33
+18-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\kaist\.gradle\caches\9.3.1\transforms\72a74ede46112820bdd592f9df8f1c35\workspace\transformed\osmdroid-android-6.0.2\AndroidManifest.xml:18:9-33
 19    <uses-feature
-19-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\nidha\.gradle\caches\9.3.1\transforms\72a74ede46112820bdd592f9df8f1c35\workspace\transformed\osmdroid-android-6.0.2\AndroidManifest.xml:19:5-21:36
+19-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\kaist\.gradle\caches\9.3.1\transforms\72a74ede46112820bdd592f9df8f1c35\workspace\transformed\osmdroid-android-6.0.2\AndroidManifest.xml:19:5-21:36
 20        android:name="android.hardware.location.gps"
-20-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\nidha\.gradle\caches\9.3.1\transforms\72a74ede46112820bdd592f9df8f1c35\workspace\transformed\osmdroid-android-6.0.2\AndroidManifest.xml:20:9-53
+20-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\kaist\.gradle\caches\9.3.1\transforms\72a74ede46112820bdd592f9df8f1c35\workspace\transformed\osmdroid-android-6.0.2\AndroidManifest.xml:20:9-53
 21        android:required="false" />
-21-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\nidha\.gradle\caches\9.3.1\transforms\72a74ede46112820bdd592f9df8f1c35\workspace\transformed\osmdroid-android-6.0.2\AndroidManifest.xml:21:9-33
+21-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\kaist\.gradle\caches\9.3.1\transforms\72a74ede46112820bdd592f9df8f1c35\workspace\transformed\osmdroid-android-6.0.2\AndroidManifest.xml:21:9-33
 22    <uses-feature
-22-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\nidha\.gradle\caches\9.3.1\transforms\72a74ede46112820bdd592f9df8f1c35\workspace\transformed\osmdroid-android-6.0.2\AndroidManifest.xml:22:5-24:36
+22-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\kaist\.gradle\caches\9.3.1\transforms\72a74ede46112820bdd592f9df8f1c35\workspace\transformed\osmdroid-android-6.0.2\AndroidManifest.xml:22:5-24:36
 23        android:name="android.hardware.telephony"
-23-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\nidha\.gradle\caches\9.3.1\transforms\72a74ede46112820bdd592f9df8f1c35\workspace\transformed\osmdroid-android-6.0.2\AndroidManifest.xml:23:9-50
+23-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\kaist\.gradle\caches\9.3.1\transforms\72a74ede46112820bdd592f9df8f1c35\workspace\transformed\osmdroid-android-6.0.2\AndroidManifest.xml:23:9-50
 24        android:required="false" />
-24-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\nidha\.gradle\caches\9.3.1\transforms\72a74ede46112820bdd592f9df8f1c35\workspace\transformed\osmdroid-android-6.0.2\AndroidManifest.xml:24:9-33
+24-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\kaist\.gradle\caches\9.3.1\transforms\72a74ede46112820bdd592f9df8f1c35\workspace\transformed\osmdroid-android-6.0.2\AndroidManifest.xml:24:9-33
 25    <uses-feature
-25-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\nidha\.gradle\caches\9.3.1\transforms\72a74ede46112820bdd592f9df8f1c35\workspace\transformed\osmdroid-android-6.0.2\AndroidManifest.xml:25:5-27:36
+25-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\kaist\.gradle\caches\9.3.1\transforms\72a74ede46112820bdd592f9df8f1c35\workspace\transformed\osmdroid-android-6.0.2\AndroidManifest.xml:25:5-27:36
 26        android:name="android.hardware.wifi"
-26-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\nidha\.gradle\caches\9.3.1\transforms\72a74ede46112820bdd592f9df8f1c35\workspace\transformed\osmdroid-android-6.0.2\AndroidManifest.xml:26:9-45
+26-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\kaist\.gradle\caches\9.3.1\transforms\72a74ede46112820bdd592f9df8f1c35\workspace\transformed\osmdroid-android-6.0.2\AndroidManifest.xml:26:9-45
 27        android:required="false" />
-27-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\nidha\.gradle\caches\9.3.1\transforms\72a74ede46112820bdd592f9df8f1c35\workspace\transformed\osmdroid-android-6.0.2\AndroidManifest.xml:27:9-33
+27-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\kaist\.gradle\caches\9.3.1\transforms\72a74ede46112820bdd592f9df8f1c35\workspace\transformed\osmdroid-android-6.0.2\AndroidManifest.xml:27:9-33
 28
 29    <permission
-29-->[androidx.core:core:1.9.0] C:\Users\nidha\.gradle\caches\9.3.1\transforms\4477e2bd48b404aec2170b12431ac8da\workspace\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+29-->[androidx.core:core:1.9.0] C:\Users\kaist\.gradle\caches\9.3.1\transforms\4477e2bd48b404aec2170b12431ac8da\workspace\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
 30        android:name="edu.polytech.filrouge_tp3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-30-->[androidx.core:core:1.9.0] C:\Users\nidha\.gradle\caches\9.3.1\transforms\4477e2bd48b404aec2170b12431ac8da\workspace\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+30-->[androidx.core:core:1.9.0] C:\Users\kaist\.gradle\caches\9.3.1\transforms\4477e2bd48b404aec2170b12431ac8da\workspace\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
 31        android:protectionLevel="signature" />
-31-->[androidx.core:core:1.9.0] C:\Users\nidha\.gradle\caches\9.3.1\transforms\4477e2bd48b404aec2170b12431ac8da\workspace\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+31-->[androidx.core:core:1.9.0] C:\Users\kaist\.gradle\caches\9.3.1\transforms\4477e2bd48b404aec2170b12431ac8da\workspace\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
 32
 33    <uses-permission android:name="edu.polytech.filrouge_tp3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-33-->[androidx.core:core:1.9.0] C:\Users\nidha\.gradle\caches\9.3.1\transforms\4477e2bd48b404aec2170b12431ac8da\workspace\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-33-->[androidx.core:core:1.9.0] C:\Users\nidha\.gradle\caches\9.3.1\transforms\4477e2bd48b404aec2170b12431ac8da\workspace\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+33-->[androidx.core:core:1.9.0] C:\Users\kaist\.gradle\caches\9.3.1\transforms\4477e2bd48b404aec2170b12431ac8da\workspace\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+33-->[androidx.core:core:1.9.0] C:\Users\kaist\.gradle\caches\9.3.1\transforms\4477e2bd48b404aec2170b12431ac8da\workspace\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 34
 35    <application
-35-->C:\Users\nidha\AndroidStudioProjects\WayAlert\app\src\main\AndroidManifest.xml:5:5-25:19
+35-->C:\Users\kaist\AndroidStudioProjects\WayAlert\app\src\main\AndroidManifest.xml:5:5-25:19
 36        android:allowBackup="true"
-36-->C:\Users\nidha\AndroidStudioProjects\WayAlert\app\src\main\AndroidManifest.xml:7:9-35
+36-->C:\Users\kaist\AndroidStudioProjects\WayAlert\app\src\main\AndroidManifest.xml:7:9-35
 37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-37-->[androidx.core:core:1.9.0] C:\Users\nidha\.gradle\caches\9.3.1\transforms\4477e2bd48b404aec2170b12431ac8da\workspace\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+37-->[androidx.core:core:1.9.0] C:\Users\kaist\.gradle\caches\9.3.1\transforms\4477e2bd48b404aec2170b12431ac8da\workspace\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 38        android:debuggable="true"
 39        android:extractNativeLibs="false"
 40        android:icon="@mipmap/ic_launcher"
-40-->C:\Users\nidha\AndroidStudioProjects\WayAlert\app\src\main\AndroidManifest.xml:8:9-43
+40-->C:\Users\kaist\AndroidStudioProjects\WayAlert\app\src\main\AndroidManifest.xml:8:9-43
 41        android:label="@string/app_name"
-41-->C:\Users\nidha\AndroidStudioProjects\WayAlert\app\src\main\AndroidManifest.xml:9:9-41
+41-->C:\Users\kaist\AndroidStudioProjects\WayAlert\app\src\main\AndroidManifest.xml:9:9-41
 42        android:supportsRtl="true"
-42-->C:\Users\nidha\AndroidStudioProjects\WayAlert\app\src\main\AndroidManifest.xml:10:9-35
+42-->C:\Users\kaist\AndroidStudioProjects\WayAlert\app\src\main\AndroidManifest.xml:10:9-35
 43        android:testOnly="true"
 44        android:theme="@style/Theme.EvalPokemon"
-44-->C:\Users\nidha\AndroidStudioProjects\WayAlert\app\src\main\AndroidManifest.xml:11:9-49
+44-->C:\Users\kaist\AndroidStudioProjects\WayAlert\app\src\main\AndroidManifest.xml:11:9-49
 45        android:usesCleartextTraffic="true" >
-45-->C:\Users\nidha\AndroidStudioProjects\WayAlert\app\src\main\AndroidManifest.xml:6:9-44
+45-->C:\Users\kaist\AndroidStudioProjects\WayAlert\app\src\main\AndroidManifest.xml:6:9-44
 46        <activity
-46-->C:\Users\nidha\AndroidStudioProjects\WayAlert\app\src\main\AndroidManifest.xml:13:9-16:20
+46-->C:\Users\kaist\AndroidStudioProjects\WayAlert\app\src\main\AndroidManifest.xml:13:9-16:20
 47            android:name="edu.polytech.filrouge_tp3.ControlActivity"
-47-->C:\Users\nidha\AndroidStudioProjects\WayAlert\app\src\main\AndroidManifest.xml:14:13-44
+47-->C:\Users\kaist\AndroidStudioProjects\WayAlert\app\src\main\AndroidManifest.xml:14:13-44
 48            android:exported="true" >
-48-->C:\Users\nidha\AndroidStudioProjects\WayAlert\app\src\main\AndroidManifest.xml:15:13-36
+48-->C:\Users\kaist\AndroidStudioProjects\WayAlert\app\src\main\AndroidManifest.xml:15:13-36
 49        </activity>
 50        <activity
-50-->C:\Users\nidha\AndroidStudioProjects\WayAlert\app\src\main\AndroidManifest.xml:17:9-24:20
+50-->C:\Users\kaist\AndroidStudioProjects\WayAlert\app\src\main\AndroidManifest.xml:17:9-24:20
 51            android:name="edu.polytech.filrouge_tp3.MainActivity"
-51-->C:\Users\nidha\AndroidStudioProjects\WayAlert\app\src\main\AndroidManifest.xml:18:13-41
+51-->C:\Users\kaist\AndroidStudioProjects\WayAlert\app\src\main\AndroidManifest.xml:18:13-41
 52            android:exported="true" >
-52-->C:\Users\nidha\AndroidStudioProjects\WayAlert\app\src\main\AndroidManifest.xml:19:13-36
+52-->C:\Users\kaist\AndroidStudioProjects\WayAlert\app\src\main\AndroidManifest.xml:19:13-36
 53            <intent-filter>
-53-->C:\Users\nidha\AndroidStudioProjects\WayAlert\app\src\main\AndroidManifest.xml:20:13-23:29
+53-->C:\Users\kaist\AndroidStudioProjects\WayAlert\app\src\main\AndroidManifest.xml:20:13-23:29
 54                <action android:name="android.intent.action.MAIN" />
-54-->C:\Users\nidha\AndroidStudioProjects\WayAlert\app\src\main\AndroidManifest.xml:21:17-69
-54-->C:\Users\nidha\AndroidStudioProjects\WayAlert\app\src\main\AndroidManifest.xml:21:25-66
+54-->C:\Users\kaist\AndroidStudioProjects\WayAlert\app\src\main\AndroidManifest.xml:21:17-69
+54-->C:\Users\kaist\AndroidStudioProjects\WayAlert\app\src\main\AndroidManifest.xml:21:25-66
 55
 56                <category android:name="android.intent.category.LAUNCHER" />
-56-->C:\Users\nidha\AndroidStudioProjects\WayAlert\app\src\main\AndroidManifest.xml:22:17-77
-56-->C:\Users\nidha\AndroidStudioProjects\WayAlert\app\src\main\AndroidManifest.xml:22:27-74
+56-->C:\Users\kaist\AndroidStudioProjects\WayAlert\app\src\main\AndroidManifest.xml:22:17-77
+56-->C:\Users\kaist\AndroidStudioProjects\WayAlert\app\src\main\AndroidManifest.xml:22:27-74
 57            </intent-filter>
 58        </activity>
 59
 60        <provider
-60-->[com.squareup.picasso:picasso:2.71828] C:\Users\nidha\.gradle\caches\9.3.1\transforms\e323c5173e4a07e68c2e86fe1891dac0\workspace\transformed\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+60-->[com.squareup.picasso:picasso:2.71828] C:\Users\kaist\.gradle\caches\9.3.1\transforms\e323c5173e4a07e68c2e86fe1891dac0\workspace\transformed\picasso-2.71828\AndroidManifest.xml:8:9-11:40
 61            android:name="com.squareup.picasso.PicassoProvider"
-61-->[com.squareup.picasso:picasso:2.71828] C:\Users\nidha\.gradle\caches\9.3.1\transforms\e323c5173e4a07e68c2e86fe1891dac0\workspace\transformed\picasso-2.71828\AndroidManifest.xml:9:13-64
+61-->[com.squareup.picasso:picasso:2.71828] C:\Users\kaist\.gradle\caches\9.3.1\transforms\e323c5173e4a07e68c2e86fe1891dac0\workspace\transformed\picasso-2.71828\AndroidManifest.xml:9:13-64
 62            android:authorities="edu.polytech.filrouge_tp3.com.squareup.picasso"
-62-->[com.squareup.picasso:picasso:2.71828] C:\Users\nidha\.gradle\caches\9.3.1\transforms\e323c5173e4a07e68c2e86fe1891dac0\workspace\transformed\picasso-2.71828\AndroidManifest.xml:10:13-72
+62-->[com.squareup.picasso:picasso:2.71828] C:\Users\kaist\.gradle\caches\9.3.1\transforms\e323c5173e4a07e68c2e86fe1891dac0\workspace\transformed\picasso-2.71828\AndroidManifest.xml:10:13-72
 63            android:exported="false" />
-63-->[com.squareup.picasso:picasso:2.71828] C:\Users\nidha\.gradle\caches\9.3.1\transforms\e323c5173e4a07e68c2e86fe1891dac0\workspace\transformed\picasso-2.71828\AndroidManifest.xml:11:13-37
+63-->[com.squareup.picasso:picasso:2.71828] C:\Users\kaist\.gradle\caches\9.3.1\transforms\e323c5173e4a07e68c2e86fe1891dac0\workspace\transformed\picasso-2.71828\AndroidManifest.xml:11:13-37
 64        <provider
-64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nidha\.gradle\caches\9.3.1\transforms\b3a6a9ae61bf8f2170844614bcd18f99\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kaist\.gradle\caches\9.3.1\transforms\b3a6a9ae61bf8f2170844614bcd18f99\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
 65            android:name="androidx.startup.InitializationProvider"
-65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nidha\.gradle\caches\9.3.1\transforms\b3a6a9ae61bf8f2170844614bcd18f99\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kaist\.gradle\caches\9.3.1\transforms\b3a6a9ae61bf8f2170844614bcd18f99\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
 66            android:authorities="edu.polytech.filrouge_tp3.androidx-startup"
-66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nidha\.gradle\caches\9.3.1\transforms\b3a6a9ae61bf8f2170844614bcd18f99\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kaist\.gradle\caches\9.3.1\transforms\b3a6a9ae61bf8f2170844614bcd18f99\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
 67            android:exported="false" >
-67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nidha\.gradle\caches\9.3.1\transforms\b3a6a9ae61bf8f2170844614bcd18f99\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kaist\.gradle\caches\9.3.1\transforms\b3a6a9ae61bf8f2170844614bcd18f99\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
 68            <meta-data
-68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nidha\.gradle\caches\9.3.1\transforms\b3a6a9ae61bf8f2170844614bcd18f99\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kaist\.gradle\caches\9.3.1\transforms\b3a6a9ae61bf8f2170844614bcd18f99\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
 69                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nidha\.gradle\caches\9.3.1\transforms\b3a6a9ae61bf8f2170844614bcd18f99\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kaist\.gradle\caches\9.3.1\transforms\b3a6a9ae61bf8f2170844614bcd18f99\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
 70                android:value="androidx.startup" />
-70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nidha\.gradle\caches\9.3.1\transforms\b3a6a9ae61bf8f2170844614bcd18f99\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kaist\.gradle\caches\9.3.1\transforms\b3a6a9ae61bf8f2170844614bcd18f99\workspace\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
 71            <meta-data
-71-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\nidha\.gradle\caches\9.3.1\transforms\9d84ba8f2af1c6fe74118c2e634c6fce\workspace\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+71-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\kaist\.gradle\caches\9.3.1\transforms\9d84ba8f2af1c6fe74118c2e634c6fce\workspace\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
 72                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-72-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\nidha\.gradle\caches\9.3.1\transforms\9d84ba8f2af1c6fe74118c2e634c6fce\workspace\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+72-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\kaist\.gradle\caches\9.3.1\transforms\9d84ba8f2af1c6fe74118c2e634c6fce\workspace\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
 73                android:value="androidx.startup" />
-73-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\nidha\.gradle\caches\9.3.1\transforms\9d84ba8f2af1c6fe74118c2e634c6fce\workspace\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+73-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\kaist\.gradle\caches\9.3.1\transforms\9d84ba8f2af1c6fe74118c2e634c6fce\workspace\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
 74            <meta-data
-74-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nidha\.gradle\caches\9.3.1\transforms\d2d19c436fcc4bef7fc001ba9d0ef15c\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+74-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kaist\.gradle\caches\9.3.1\transforms\d2d19c436fcc4bef7fc001ba9d0ef15c\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
 75                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-75-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nidha\.gradle\caches\9.3.1\transforms\d2d19c436fcc4bef7fc001ba9d0ef15c\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+75-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kaist\.gradle\caches\9.3.1\transforms\d2d19c436fcc4bef7fc001ba9d0ef15c\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
 76                android:value="androidx.startup" />
-76-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nidha\.gradle\caches\9.3.1\transforms\d2d19c436fcc4bef7fc001ba9d0ef15c\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+76-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kaist\.gradle\caches\9.3.1\transforms\d2d19c436fcc4bef7fc001ba9d0ef15c\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
 77        </provider>
 78
 79        <receiver
-79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nidha\.gradle\caches\9.3.1\transforms\d2d19c436fcc4bef7fc001ba9d0ef15c\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kaist\.gradle\caches\9.3.1\transforms\d2d19c436fcc4bef7fc001ba9d0ef15c\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
 80            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nidha\.gradle\caches\9.3.1\transforms\d2d19c436fcc4bef7fc001ba9d0ef15c\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kaist\.gradle\caches\9.3.1\transforms\d2d19c436fcc4bef7fc001ba9d0ef15c\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
 81            android:directBootAware="false"
-81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nidha\.gradle\caches\9.3.1\transforms\d2d19c436fcc4bef7fc001ba9d0ef15c\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kaist\.gradle\caches\9.3.1\transforms\d2d19c436fcc4bef7fc001ba9d0ef15c\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
 82            android:enabled="true"
-82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nidha\.gradle\caches\9.3.1\transforms\d2d19c436fcc4bef7fc001ba9d0ef15c\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kaist\.gradle\caches\9.3.1\transforms\d2d19c436fcc4bef7fc001ba9d0ef15c\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
 83            android:exported="true"
-83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nidha\.gradle\caches\9.3.1\transforms\d2d19c436fcc4bef7fc001ba9d0ef15c\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kaist\.gradle\caches\9.3.1\transforms\d2d19c436fcc4bef7fc001ba9d0ef15c\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
 84            android:permission="android.permission.DUMP" >
-84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nidha\.gradle\caches\9.3.1\transforms\d2d19c436fcc4bef7fc001ba9d0ef15c\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kaist\.gradle\caches\9.3.1\transforms\d2d19c436fcc4bef7fc001ba9d0ef15c\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
 85            <intent-filter>
-85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nidha\.gradle\caches\9.3.1\transforms\d2d19c436fcc4bef7fc001ba9d0ef15c\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kaist\.gradle\caches\9.3.1\transforms\d2d19c436fcc4bef7fc001ba9d0ef15c\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
 86                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nidha\.gradle\caches\9.3.1\transforms\d2d19c436fcc4bef7fc001ba9d0ef15c\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nidha\.gradle\caches\9.3.1\transforms\d2d19c436fcc4bef7fc001ba9d0ef15c\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kaist\.gradle\caches\9.3.1\transforms\d2d19c436fcc4bef7fc001ba9d0ef15c\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kaist\.gradle\caches\9.3.1\transforms\d2d19c436fcc4bef7fc001ba9d0ef15c\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
 87            </intent-filter>
 88            <intent-filter>
-88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nidha\.gradle\caches\9.3.1\transforms\d2d19c436fcc4bef7fc001ba9d0ef15c\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kaist\.gradle\caches\9.3.1\transforms\d2d19c436fcc4bef7fc001ba9d0ef15c\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
 89                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nidha\.gradle\caches\9.3.1\transforms\d2d19c436fcc4bef7fc001ba9d0ef15c\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nidha\.gradle\caches\9.3.1\transforms\d2d19c436fcc4bef7fc001ba9d0ef15c\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kaist\.gradle\caches\9.3.1\transforms\d2d19c436fcc4bef7fc001ba9d0ef15c\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kaist\.gradle\caches\9.3.1\transforms\d2d19c436fcc4bef7fc001ba9d0ef15c\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
 90            </intent-filter>
 91            <intent-filter>
-91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nidha\.gradle\caches\9.3.1\transforms\d2d19c436fcc4bef7fc001ba9d0ef15c\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kaist\.gradle\caches\9.3.1\transforms\d2d19c436fcc4bef7fc001ba9d0ef15c\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
 92                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nidha\.gradle\caches\9.3.1\transforms\d2d19c436fcc4bef7fc001ba9d0ef15c\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nidha\.gradle\caches\9.3.1\transforms\d2d19c436fcc4bef7fc001ba9d0ef15c\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kaist\.gradle\caches\9.3.1\transforms\d2d19c436fcc4bef7fc001ba9d0ef15c\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kaist\.gradle\caches\9.3.1\transforms\d2d19c436fcc4bef7fc001ba9d0ef15c\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
 93            </intent-filter>
 94            <intent-filter>
-94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nidha\.gradle\caches\9.3.1\transforms\d2d19c436fcc4bef7fc001ba9d0ef15c\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kaist\.gradle\caches\9.3.1\transforms\d2d19c436fcc4bef7fc001ba9d0ef15c\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
 95                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nidha\.gradle\caches\9.3.1\transforms\d2d19c436fcc4bef7fc001ba9d0ef15c\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nidha\.gradle\caches\9.3.1\transforms\d2d19c436fcc4bef7fc001ba9d0ef15c\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kaist\.gradle\caches\9.3.1\transforms\d2d19c436fcc4bef7fc001ba9d0ef15c\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\kaist\.gradle\caches\9.3.1\transforms\d2d19c436fcc4bef7fc001ba9d0ef15c\workspace\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
 96            </intent-filter>
 97        </receiver>
 98    </application>

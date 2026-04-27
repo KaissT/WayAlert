@@ -4,7 +4,7 @@
             "outputFile": "edu.polytech.filrouge_tp3.app-mergeDebugResources-31:/values-h480dp-land-v13/values-h480dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\nidha\\.gradle\\caches\\9.3.1\\transforms\\9d78bccceb2d4071d38cc49a06a667f8\\workspace\\transformed\\material-1.11.0\\res\\values-h480dp-land-v13\\values-h480dp-land-v13.xml",
+                    "source": "C:\\Users\\kaist\\.gradle\\caches\\9.3.1\\transforms\\9d78bccceb2d4071d38cc49a06a667f8\\workspace\\transformed\\material-1.11.0\\res\\values-h480dp-land-v13\\values-h480dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

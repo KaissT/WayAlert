@@ -4,7 +4,7 @@
             "outputFile": "edu.polytech.filrouge_tp3.app-mergeDebugResources-31:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\nidha\\.gradle\\caches\\9.3.1\\transforms\\6767362d57ff4c1fc6066f7b9bce4d38\\workspace\\transformed\\media-1.0.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\kaist\\.gradle\\caches\\9.3.1\\transforms\\6767362d57ff4c1fc6066f7b9bce4d38\\workspace\\transformed\\media-1.0.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,17 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\nidha\\.gradle\\caches\\9.3.1\\transforms\\9d78bccceb2d4071d38cc49a06a667f8\\workspace\\transformed\\material-1.11.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\kaist\\.gradle\\caches\\9.3.1\\transforms\\ec654bf441a8569d141c2782ed5e336f\\workspace\\transformed\\appcompat-1.6.1\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endColumns": "156,134",
+                        "endOffsets": "207,342"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\kaist\\.gradle\\caches\\9.3.1\\transforms\\9d78bccceb2d4071d38cc49a06a667f8\\workspace\\transformed\\material-1.11.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,9,12,15",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -37,16 +47,6 @@
                         "endLines": "4,5,6,7,10,13,16,19",
                         "endColumns": "84,98,86,100,10,10,10,10",
                         "endOffsets": "427,526,613,714,913,1126,1327,1542"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\nidha\\.gradle\\caches\\9.3.1\\transforms\\ec654bf441a8569d141c2782ed5e336f\\workspace\\transformed\\appcompat-1.6.1\\res\\values-v24\\values-v24.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,212",
-                        "endColumns": "156,134",
-                        "endOffsets": "207,342"
                     }
                 }
             ]

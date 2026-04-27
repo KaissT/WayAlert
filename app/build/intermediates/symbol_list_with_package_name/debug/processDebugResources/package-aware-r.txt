@@ -3014,6 +3014,7 @@ drawable earth7
 drawable earth8
 drawable earth9
 drawable fond
+drawable fond_champ_texte
 drawable fondmenu
 drawable ic_arrow_back_black_24
 drawable ic_clear_black_24
@@ -3306,6 +3307,7 @@ id easeInOut
 id easeOut
 id east
 id edge
+id editDescription
 id editTitre
 id edit_query
 id elastic
@@ -3371,7 +3373,6 @@ id jumpToEnd
 id jumpToStart
 id labelGravite
 id labelScreen1Fragment
-id labelScreen2Fragment
 id labelScreen3Fragment
 id labelScreen4Fragment
 id labelScreen5Fragment
@@ -3510,9 +3511,14 @@ id postLayout
 id pressed
 id progress_circular
 id progress_horizontal
+id r1
+id r2
+id r3
 id radio
 id radioFaible
 id radioGrave
+id radioGroup
+id radioGroup2
 id radioGroupGravite
 id radioMoyenne
 id ratio
@@ -3588,6 +3594,7 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
+id switch1
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -3604,6 +3611,9 @@ id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
 id text
 id text2
+id textDescription
+id textDescription2
+id textDescription3
 id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
@@ -3611,6 +3621,10 @@ id textStart
 id textTop
 id textType
 id textView
+id textView2
+id textView3
+id textView4
+id textView5
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon

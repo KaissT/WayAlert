@@ -3013,6 +3013,7 @@ int drawable earth7 0x7f080092
 int drawable earth8 0x7f080093
 int drawable earth9 0x7f080094
 int drawable fond 0x7f080095
+int drawable fond_champ_texte 0x7f080105
 int drawable fondmenu 0x7f080096
 int drawable ic_arrow_back_black_24 0x7f080097
 int drawable ic_clear_black_24 0x7f080098
@@ -3305,6 +3306,7 @@ int id easeInOut 0x7f0900b1
 int id easeOut 0x7f0900b2
 int id east 0x7f0900b3
 int id edge 0x7f0900b4
+int id editDescription 0x7f090219
 int id editTitre 0x7f0900b5
 int id edit_query 0x7f0900b6
 int id elastic 0x7f0900b7
@@ -3370,7 +3372,6 @@ int id jumpToEnd 0x7f0900f2
 int id jumpToStart 0x7f0900f3
 int id labelGravite 0x7f0900f4
 int id labelScreen1Fragment 0x7f0900f5
-int id labelScreen2Fragment 0x7f0900f6
 int id labelScreen3Fragment 0x7f0900f7
 int id labelScreen4Fragment 0x7f0900f8
 int id labelScreen5Fragment 0x7f0900f9
@@ -3509,9 +3510,14 @@ int id postLayout 0x7f09017d
 int id pressed 0x7f09017e
 int id progress_circular 0x7f09017f
 int id progress_horizontal 0x7f090180
+int id r1 0x7f09021a
+int id r2 0x7f09021b
+int id r3 0x7f09021c
 int id radio 0x7f090181
 int id radioFaible 0x7f090182
 int id radioGrave 0x7f090183
+int id radioGroup 0x7f09021d
+int id radioGroup2 0x7f09021e
 int id radioGroupGravite 0x7f090184
 int id radioMoyenne 0x7f090185
 int id ratio 0x7f090186
@@ -3587,6 +3593,7 @@ int id stretch 0x7f0901cb
 int id submenuarrow 0x7f0901cc
 int id submit_area 0x7f0901cd
 int id supportScrollUp 0x7f0901ce
+int id switch1 0x7f09021f
 int id tabMode 0x7f0901cf
 int id tag_accessibility_actions 0x7f0901d0
 int id tag_accessibility_clickable_spans 0x7f0901d1
@@ -3603,6 +3610,9 @@ int id tag_unhandled_key_listeners 0x7f0901db
 int id tag_window_insets_animation_callback 0x7f0901dc
 int id text 0x7f0901dd
 int id text2 0x7f0901de
+int id textDescription 0x7f090220
+int id textDescription2 0x7f090221
+int id textDescription3 0x7f090222
 int id textEnd 0x7f0901df
 int id textSpacerNoButtons 0x7f0901e0
 int id textSpacerNoTitle 0x7f0901e1
@@ -3610,6 +3620,10 @@ int id textStart 0x7f0901e2
 int id textTop 0x7f0901e3
 int id textType 0x7f0901e4
 int id textView 0x7f0901e5
+int id textView2 0x7f090223
+int id textView3 0x7f090224
+int id textView4 0x7f090225
+int id textView5 0x7f090226
 int id text_input_end_icon 0x7f0901e6
 int id text_input_error_icon 0x7f0901e7
 int id text_input_start_icon 0x7f0901e8
