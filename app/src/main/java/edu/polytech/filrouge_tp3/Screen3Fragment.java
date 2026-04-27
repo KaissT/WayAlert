@@ -1,57 +1,67 @@
 package edu.polytech.filrouge_tp3;
 
-import android.content.Context;
-import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+import android.widget.TextView;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import java.util.List;
 
-/**
- *  Fragment prêt à remplir
- */
 public class Screen3Fragment extends Fragment {
-    public final static int FRAGMENT_ID = 2;
-    private final String TAG = "frallo "+getClass().getSimpleName();
-    private Notifiable notifiable;
+    public final static int FRAGMENT_ID = 3;
+    private final String TAG = "frallo " + getClass().getSimpleName();
 
-
+    private ListView listView;
 
     public Screen3Fragment() {
-        Log.d(TAG,"screenFragment type 3 created"); // Required empty public constructor
+        Log.d(TAG, "Screen3Fragment created");
+    }
+
+    @Nullable
+    @Override
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.type, container, false);
+        listView = view.findViewById(R.id.listView);
+        return view;
     }
 
     @Override
     public void onStart() {
         super.onStart();
-        notifiable.onFragmentDisplayed(FRAGMENT_ID);
+        refreshList();
     }
 
-    @Override
-    public void onAttach(Context context) {
-        super.onAttach(context);
-        if (requireActivity() instanceof Notifiable) {
-            notifiable = (Notifiable) requireActivity();
-            //Log.d(TAG, "Class " + requireActivity().getClass().getSimpleName() + " implements Notifiable.");
-        } else {
-            throw new AssertionError("Classe " + requireActivity().getClass().getName() + " ne met pas en œuvre Notifiable.");
+    public void refreshList() {
+        if (getActivity() instanceof ControlActivity && listView != null) {
+            List<Accident> accidents = ((ControlActivity) getActivity()).getListeAccidents();
+            Log.d(TAG, "Rafraîchissement de la liste : " + accidents.size() + " accidents trouvés.");
+
+            ArrayAdapter<Accident> adapter = new ArrayAdapter<Accident>(
+                    getContext(),
+                    android.R.layout.simple_list_item_1,
+                    accidents
+            ) {
+                @NonNull
+                @Override
+                public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
+                    View v = super.getView(position, convertView, parent);
+                    TextView tv = v.findViewById(android.R.id.text1);
+                    Accident item = getItem(position);
+                    if (item != null) {
+                        tv.setText(item.getDescription() + "\nDate: " + item.getDate());
+                    }
+                    return v;
+                }
+            };
+            listView.setAdapter(adapter);
         }
     }
-
-
-
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,  Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_screen3, container, false);
-
-
-        return view;
-    }
-
-
 }

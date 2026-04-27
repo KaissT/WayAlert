@@ -23,15 +23,21 @@ public class MenuFragment extends Fragment{
 
 
     public MenuFragment() {
-        //Log.d(TAG, "MenuFragment created");
     }
 
     public void setCurrentActivatedIndex(int index){
-        //here, currentActivatedIndex is not still updated --> currentActivatedIndex is the old one and index is the new selected
         Log.d(TAG,"setCurrentActivatedIndex updated to " + index +" (currentActivatedIndex = "+currentActivatedIndex+")");
         List<ImageView> imageViews = findPicturesMenuFromId( layout.findViewById(R.id.itemsMenu));
-        imageViews.get(currentActivatedIndex).setImageResource(  layout.getResources().getIdentifier("menu"+(currentActivatedIndex), "mipmap", layout.getContext().getPackageName()) );
-        imageViews.get(index).setImageResource(  layout.getResources().getIdentifier("menu"+(index)+"_s", "mipmap", layout.getContext().getPackageName()) );
+        
+        // Protection contre l'IndexOutOfBoundsException
+        if (currentActivatedIndex < imageViews.size()) {
+            imageViews.get(currentActivatedIndex).setImageResource(  layout.getResources().getIdentifier("menu"+(currentActivatedIndex), "mipmap", layout.getContext().getPackageName()) );
+        }
+        
+        if (index < imageViews.size()) {
+            imageViews.get(index).setImageResource(  layout.getResources().getIdentifier("menu"+(index)+"_s", "mipmap", layout.getContext().getPackageName()) );
+        }
+        
         currentActivatedIndex = index;
     }
 
@@ -42,44 +48,37 @@ public class MenuFragment extends Fragment{
 
         List<ImageView> imageViews = findPicturesMenuFromId( layout.findViewById(R.id.itemsMenu));
 
-        //get current activated index menu
         if (getArguments() != null) {
-            currentActivatedIndex = getArguments().getInt(getString(R.string.index), 0);  //convert menu number to index
+            currentActivatedIndex = getArguments().getInt(getString(R.string.index), 0);
         }
-        imageViews.get(currentActivatedIndex).setImageResource(  layout.getResources().getIdentifier("menu"+(currentActivatedIndex)+"_s", "mipmap", layout.getContext().getPackageName()) );
-        //Log.d(TAG, "BEGIN : menu index " +  currentActivatedIndex + " is selected");
-
-        //notify activity the menu is selected
-        menuable.onMenuChange(currentActivatedIndex);
+        
+        // Protection à l'initialisation
+        if (currentActivatedIndex < imageViews.size()) {
+            imageViews.get(currentActivatedIndex).setImageResource(  layout.getResources().getIdentifier("menu"+(currentActivatedIndex)+"_s", "mipmap", layout.getContext().getPackageName()) );
+        }
 
         TextView text = layout.findViewById(R.id.txtFragmentMenu);
         text.setText("Menu");
-       // menuable.onMenuChange(currentActivatedIndex);
-
 
         for(ImageView imageView : imageViews) {
             imageView.setOnClickListener( menu -> {
                 int oldIndex = currentActivatedIndex;
                 currentActivatedIndex = Integer.parseInt(imageView.getTag().toString());
 
-                //notify activity currentIndexChange
                 menuable.onMenuChange(currentActivatedIndex);
 
-                //display old menu in gray
-                imageViews.get(oldIndex).setImageResource(  layout.getResources().getIdentifier("menu"+(oldIndex), "mipmap", layout.getContext().getPackageName()) );
+                if (oldIndex < imageViews.size()) {
+                    imageViews.get(oldIndex).setImageResource(  layout.getResources().getIdentifier("menu"+(oldIndex), "mipmap", layout.getContext().getPackageName()) );
+                }
 
-                //display new menu in green
-                ((ImageView)menu).setImageResource(  layout.getResources().getIdentifier("menu"+(currentActivatedIndex)+"_s", "mipmap", layout.getContext().getPackageName()) );
+                if (currentActivatedIndex < imageViews.size()) {
+                    ((ImageView)menu).setImageResource(  layout.getResources().getIdentifier("menu"+(currentActivatedIndex)+"_s", "mipmap", layout.getContext().getPackageName()) );
+                }
             });
         }
         return layout;
     }
 
-
-
-
-
-    // browse rootView and sort all buttons in "buttons" list
     private List<ImageView> findPicturesMenuFromId(View view) {
         List<ImageView> pictures = new ArrayList<>();
         if (view instanceof ViewGroup) {
@@ -88,10 +87,8 @@ public class MenuFragment extends Fragment{
             for (int i = 0; i < count; i++) {
                 View child = viewGroup.getChildAt(i);
                 if (child instanceof ImageView) {
-                    String idString = getResources().getResourceEntryName(child.getId());
-                    if (idString.matches("menu[1-3]?")) {
-                        pictures.add((ImageView) child);
-                    }
+                    // On accepte tous les IDs commençant par menu
+                    pictures.add((ImageView) child);
                 }
             }
         }
@@ -102,13 +99,10 @@ public class MenuFragment extends Fragment{
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-
         if (requireActivity() instanceof Menuable) {
             menuable = (Menuable) requireActivity();
-            //Log.d(TAG, "Class " + requireActivity().getClass().getSimpleName() + " implements Notifiable.");
         } else {
             throw new AssertionError("Classe " + requireActivity().getClass().getName() + " ne met pas en œuvre Notifiable.");
         }
     }
-
 }

@@ -1,7 +1,6 @@
 package edu.polytech.filrouge_tp3;
 
-public class AccidentFactory {
-    // Mode Détail
+public class AccidentFactoryDetailMode {
     public static final int VOITURE = 1;
     
     public static final int COLLISION_MOTO = 2;

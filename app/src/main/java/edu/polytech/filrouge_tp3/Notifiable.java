@@ -1,9 +1,9 @@
 package edu.polytech.filrouge_tp3;
 
-import android.content.Context;
-
 public interface Notifiable {
-    void onClick(int numFragment);
-    void onDataChange(int numFragment, Object object);
+    void onClick(int fragmentId);
     void onFragmentDisplayed(int fragmentId);
+    void onAccidentCreated(Accident accident); // Nouvelle méthode
+
+    void onDataChange(int numFragment, Object data);
 }
