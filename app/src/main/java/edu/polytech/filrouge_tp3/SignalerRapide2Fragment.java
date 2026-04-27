@@ -20,7 +20,6 @@ import androidx.fragment.app.Fragment;
 
 import java.util.ArrayList;
 import java.util.List;
-
 /**
  * Fragment "Informations" adapté de la maquette Figma WayAlert.
  *
@@ -32,7 +31,7 @@ import java.util.List;
  * L'écouteur {@link AdapterView.OnItemSelectedListener} (slides 11, 27)
  * est également mis en place pour réagir au choix de l'utilisateur.
  */
-public class InformationsFragment extends Fragment {
+public class SignalerRapide2Fragment extends Fragment {
 
     private static final String TAG = "frallo InformationsFragment";
 
@@ -49,7 +48,7 @@ public class InformationsFragment extends Fragment {
     /** Valeur courante sélectionnée dans le Spinner. */
     private String selectedType = "";
 
-    public InformationsFragment() {
+    public SignalerRapide2Fragment() {
         Log.d(TAG, "InformationsFragment created");
     }
 
@@ -75,7 +74,7 @@ public class InformationsFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater,
                              @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_informations, container, false);
+        View view = inflater.inflate(R.layout.fragment_signaler_rapide_2, container, false);
 
         spinnerTypeAccident = view.findViewById(R.id.spinnerTypeAccident);
         radioGroupGravite  = view.findViewById(R.id.radioGroupGravite);
@@ -84,7 +83,6 @@ public class InformationsFragment extends Fragment {
         setupSpinnerDynamic();
         setupSpinnerListener();
         setupValidationButton();
-
         return view;
     }
 

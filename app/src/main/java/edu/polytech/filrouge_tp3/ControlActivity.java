@@ -1,6 +1,5 @@
 package edu.polytech.filrouge_tp3;
 
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -40,8 +39,8 @@ public class ControlActivity extends AppCompatActivity implements Menuable, Noti
     private Fragment mainFragment;
     private MenuFragment menu;
     private boolean isStarting = true;
-    private Fragment[] tabFragments = { new Screen1Fragment(), new Screen2Fragment(),
-                                        new InformationsFragment(), new Screen4Fragment(),
+    private Fragment[] tabFragments = { new Screen1Fragment(), new SignalerDetail3Fragment(),
+                                        new SignalerRapide2Fragment(), new Screen4Fragment(),
                                         new Screen5Fragment(), new Screen6Fragment(),
                                         new Screen7Fragment() };
     private int menuNumber;

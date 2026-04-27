@@ -12,14 +12,14 @@ import androidx.fragment.app.Fragment;
 /**
  *  Fragment prêt à remplir
  */
-public class Screen2Fragment extends Fragment {
+public class SignalerDetail3Fragment extends Fragment {
     public final static int FRAGMENT_ID = 1;
     private final String TAG = "frallo "+getClass().getSimpleName();
     private Notifiable notifiable;
 
 
 
-    public Screen2Fragment() {
+    public SignalerDetail3Fragment() {
         Log.d(TAG,"screenFragment type 2 created"); // Required empty public constructor
     }
 
@@ -44,7 +44,7 @@ public class Screen2Fragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,  Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_screen2, container, false);
+        View view = inflater.inflate(R.layout.fragment_signaler_detail_3, container, false);
 
 
         return view;
