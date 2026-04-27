@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    fragment_informations.xml
+
+    Page "Informations" adaptee de la maquette Figma WayAlert.
+    Le Spinner n'utilise PAS android:entries : il est peuple DYNAMIQUEMENT
+    depuis InformationsFragment.java via un ArrayAdapter<String>,
+    conformement au cours "Adapters" (slides 22-25).
+-->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignalerRapide2Fragment">
+
+    <!-- Image de fond avec alpha -->
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.3"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fond"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+
+        />
+
+    <TextView
+        android:id="@+id/titleInformations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Informations :"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginHorizontal="15sp"
+        />
+
+    <!-- Spinner peuple DYNAMIQUEMENT depuis le Fragment (pas d'android:entries) -->
+    <Spinner
+        android:id="@+id/spinnerTypeAccident"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:padding="8dp"
+        android:spinnerMode="dropdown"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleInformations" />
+
+    <TextView
+        android:id="@+id/labelGravite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Gravité :"
+        android:layout_marginHorizontal="15sp"
+
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/spinnerTypeAccident" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupGravite"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/labelGravite">
+
+        <RadioButton
+            android:id="@+id/radioFaible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Faible (recommandé)"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginHorizontal="15sp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:text="Peu de dégâts matériels/humains"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/radioMoyenne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Moyenne"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginHorizontal="15sp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:text="Dégâts matériels constatés, risques moyens"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/radioGrave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Grave"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginHorizontal="15sp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:text="Dégâts humains/matériels importants"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonValider"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15sp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="@color/green"
+        android:text="VALIDER"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

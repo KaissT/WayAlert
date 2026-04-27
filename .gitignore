@@ -1,0 +1,41 @@
+gitignore
+# --- Répertoires de Build ---
+# On ignore tous les dossiers 'build' du projet et des modules
+build/
+app/build/
+**/build/
+/build
+/app/build
+bin/
+gen/
+
+# --- Gradle ---
+# Fichiers de cache et de configuration locale
+.gradle/
+local.properties
+.navigation/
+
+# --- Android Studio / IntelliJ ---
+# Paramètres de l'IDE propres à ton ordinateur
+.idea/workspace.xml
+.idea/libraries/
+.idea/shelf/
+.idea/assetWizardSettings.xml
+.idea/modules.xml
+.idea/navEditor.xml
+*.iml
+*.iws
+*.ipr
+
+# --- Fichiers générés et temporaires ---
+captures/
+.externalNativeBuild/
+.cxx/
+*.log
+.DS_Store
+
+# --- Fichiers de sortie (APKs) ---
+*.apk
+*.ap_
+*.aab
+*.dex
