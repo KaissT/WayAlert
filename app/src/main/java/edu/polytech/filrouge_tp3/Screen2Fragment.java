@@ -27,6 +27,9 @@ public class Screen2Fragment extends Fragment {
     private LinearLayout layoutBlessure;
     private CheckBox checkHumain;
 
+    /** Index du Screen3Fragment (liste des accidents) dans ControlActivity.tabFragments */
+    private static final int LIST_FRAGMENT_INDEX = 3;
+
     public Screen2Fragment() {
         Log.d(TAG, "screenFragment type 2 created");
     }
@@ -45,6 +48,7 @@ public class Screen2Fragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_screen2, container, false);
 
         editDescription = view.findViewById(R.id.editDescription);
+        editDate        = view.findViewById(R.id.editDate);
         radioGravite    = view.findViewById(R.id.radioGravite);
         checkHumain     = view.findViewById(R.id.checkHumain);
         layoutBlessure  = view.findViewById(R.id.layoutBlessure);
@@ -71,6 +75,7 @@ public class Screen2Fragment extends Fragment {
             Accident accident = AccidentFactoryDetailMode.build(AccidentFactoryDetailMode.VOITURE);
 
             accident.setDescription(editDescription.getText().toString());
+            accident.setDate(editDate.getText().toString());
             accident.setHumain(checkHumain.isChecked());
 
             if (checkHumain.isChecked()) {
@@ -90,17 +95,19 @@ public class Screen2Fragment extends Fragment {
             } else {
                 accident.setGravite(Gravite.FAIBLE);
             }
-            Bundle bundle = new Bundle();
-            bundle.putParcelable("accident", accident);
 
             Log.d(TAG, "Accident créé : " + accident.getDescription()
                     + " (" + accident.getGravite() + ")");
-            Toast.makeText(getContext(), "Accident enregistré !",
-                    Toast.LENGTH_SHORT).show();
 
             if (notifiable != null) {
-                notifiable.onClick(FRAGMENT_ID);
+                // 1) On enregistre l'accident dans la liste de ControlActivity
+                notifiable.onAccidentCreated(accident);
+                // 2) On navigue vers Screen3Fragment qui affiche la liste
+                notifiable.onClick(LIST_FRAGMENT_INDEX);
             }
+
+            Toast.makeText(getContext(), "Accident enregistré !",
+                    Toast.LENGTH_SHORT).show();
 
         } catch (Throwable throwable) {
             Log.e(TAG, "Erreur Factory : " + throwable.getMessage());
