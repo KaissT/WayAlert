@@ -1,0 +1,242 @@
+[
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\raw_mj.wav.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\raw\\mj.wav"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\layout_fragment_screen1.xml.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\layout\\fragment_screen1.xml"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\drawable_sanse.png.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\drawable\\sanse.png"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\drawable_earth3.png.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\drawable\\earth3.png"
+    },
+    {
+        "merged": "edu.polytech.filrouge_tp3.app-debug-33:/layout_fragment_screen1.xml.flat",
+        "source": "edu.polytech.filrouge_tp3.app-main-35:/layout/fragment_screen1.xml"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\drawable_fond_champ_texte.xml.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\drawable\\fond_champ_texte.xml"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\drawable_sanse_face.png.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\drawable\\sanse_face.png"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\mipmap-hdpi_menu3.png.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\mipmap-hdpi\\menu3.png"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\drawable_fond.png.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\drawable\\fond.png"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\mipmap-hdpi_menu6.png.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\mipmap-hdpi\\menu6.png"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\layout_fragment_screen4.xml.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\layout\\fragment_screen4.xml"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\drawable_earth7.png.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\drawable\\earth7.png"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\layout_type.xml.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\layout\\type.xml"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\drawable_fondmenu.png.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\drawable\\fondmenu.png"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\mipmap-hdpi_menu0.png.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\mipmap-hdpi\\menu0.png"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\mipmap-anydpi-v33\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\layout_fragment_screen7.xml.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\layout\\fragment_screen7.xml"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\drawable_earth2.png.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\drawable\\earth2.png"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\drawable_earth9.png.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\drawable\\earth9.png"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\mipmap-hdpi_menu1_s.png.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\mipmap-hdpi\\menu1_s.png"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\mipmap-hdpi_menu2_s.png.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\mipmap-hdpi\\menu2_s.png"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\mipmap-hdpi_menu3_s.png.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\mipmap-hdpi\\menu3_s.png"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\mipmap-hdpi_menu4.png.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\mipmap-hdpi\\menu4.png"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\mipmap-hdpi_menu4_s.png.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\mipmap-hdpi\\menu4_s.png"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\drawable_earth6.png.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\drawable\\earth6.png"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\mipmap-hdpi_menu6_s.png.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\mipmap-hdpi\\menu6_s.png"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\layout_fragment_screen3.xml.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\layout\\fragment_screen3.xml"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\mipmap-hdpi_menu5_s.png.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\mipmap-hdpi\\menu5_s.png"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\mipmap-hdpi_menu1.png.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\mipmap-hdpi\\menu1.png"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\layout_fragment_screen6.xml.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\layout\\fragment_screen6.xml"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\drawable_ic_notifications.xml.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\drawable\\ic_notifications.xml"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\mipmap-hdpi_menu0_s.png.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\mipmap-hdpi\\menu0_s.png"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\drawable_rotation_animation.xml.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\drawable\\rotation_animation.xml"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\layout_fragment_informations.xml.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\layout\\fragment_informations.xml"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\layout_fragment_screen2.xml.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\layout\\fragment_screen2.xml"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\drawable_earth5.png.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\drawable\\earth5.png"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\drawable_earth4.png.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\drawable\\earth4.png"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\layout_fragment_screen5.xml.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\layout\\fragment_screen5.xml"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\drawable_earth8.png.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\drawable\\earth8.png"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\mipmap-hdpi_menu5.png.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\mipmap-hdpi\\menu5.png"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\layout_activity_control.xml.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\layout\\activity_control.xml"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\layout_fragment_menu.xml.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\layout\\fragment_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\drawable_earth1.png.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\drawable\\earth1.png"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\drawable_earth10.png.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\drawable\\earth10.png"
+    },
+    {
+        "merged": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-debug-33:\\mipmap-hdpi_menu2.png.flat",
+        "source": "C:\\Users\\nidha\\.gradle\\daemon\\9.3.1\\edu.polytech.filrouge_tp3.app-main-35:\\mipmap-hdpi\\menu2.png"
+    }
+]
